@@ -52,14 +52,14 @@ header .wrapper .logo img {
     margin-right: 0;
     padding-right: 0;
 }
-.wrapper ul li:hover {
-    background-color: var(--blue);
-    color: var(--white);
-}
+
 .wrapper ul li a {
     text-decoration: none;
     font-size: 16px;
     color: var(--dark_blue);
+}
+.wrapper ul li a:hover {
+    color: var(--blue);
 }
 
 /* header section end here */
@@ -111,26 +111,6 @@ header .wrapper .logo img {
 
 /* feature_section end here */
 
-/* footer section start here  */
-footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--blue);
-    color: var(--light_grey);
-    padding: 20px 0;
-}
-footer p {
-}
-footer p span {
-    color: var(--white);
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    font-weight: 550;
-}
-
-/* footer section end here  */
-
 /* card_section start here  */
 .card_section {
     /* width: 80%; */
@@ -170,7 +150,6 @@ footer p span {
     padding-bottom: 10px;
 }
 .card_body p {
-    text-align: justify;
 }
 .card_header1 {
     background-color: var(--pink);
@@ -180,3 +159,23 @@ footer p span {
 .card_header3 {
 }
 /* card_section end here  */
+
+/* footer section start here  */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--blue);
+    color: var(--light_grey);
+    padding: 30px 0;
+}
+footer p {
+}
+footer p span {
+    color: var(--white);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 550;
+}
+
+/* footer section end here  */
